@@ -1,0 +1,42 @@
+.header{
+  background-color: white;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height: 55px;
+  /* background-color: lightblue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0px 18px;
+  z-index: 200;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.15);
+}
+.logo-name{
+  /* background-color: lightcoral; */
+  text-align: center;
+  padding:10px 5px;
+  cursor: pointer;
+  flex: 1;
+  flex-shrink: 0;
+  width: 180px;
+  letter-spacing: 4px;
+}
+.logo-name:hover,
+.nav-info:hover
+{
+  color: #000;
+  background-color: #c4c4c4;
+}
+.right-section{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-info{
+  /* background-color: lightcoral; */
+  padding:10px 15px;
+  cursor: pointer;
+  letter-spacing: 4px;
+}
+

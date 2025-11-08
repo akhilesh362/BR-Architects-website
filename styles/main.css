@@ -1,0 +1,133 @@
+.image{
+  width:100%;
+  object-fit: cover;
+}
+.image-div{
+  width:100%;
+  position: relative;
+}
+.image-logo-div{
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -35%);
+}
+.span-br{
+  background-color: black;
+  color: #ffffff;
+  padding:8px 16px;
+  opacity: 0.79;
+  font-size: 36px;
+  font-weight: normal;
+  font-family: "Segoe UI", Arial, sans-serif;
+  letter-spacing: 4px;
+}
+.span-architects{
+  color:white;
+  font-weight: normal;
+  opacity: 0.90;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 36px;
+  letter-spacing: 4px;
+}
+
+/*MAIN SECTION STARTING*/
+.main-section-container{
+  padding:8px 16px;
+}
+.projects-div,
+.about-text-div
+{
+  padding:32px 16px; 
+  /* background-color: lightblue; */
+  
+}
+.projects-text,
+.about-text
+{
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 25px;
+  color: black;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom:18px; 
+  margin-top:16px;
+}
+.projects-images-container{
+  padding:0px 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 15px;
+  margin-bottom:25px;
+}
+.house-image-div{
+  position: relative;
+}
+.house-image{
+  width:100%;
+}
+.summer-house{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  padding:10px 16px;
+  top:0;
+  left:0;
+}
+.about-para{
+  line-height: 25px;
+  color: black;
+  font-size: 15px;
+}
+.about-image-div{
+  width:100%;
+}
+.about-image{
+  width: 100%;
+  filter: grayscale(70%);
+}
+.about-image-name{
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 25px;
+  color: black;
+  margin-top:10px;
+  margin-bottom:8px;
+}
+.ceo{
+  opacity: 0.75;
+  font-size: 15px;
+}
+.about-image-para{
+  font-size: 15px;
+  line-height: 25px;
+  color: black;
+  width: 100%;
+
+}
+/* .about-image-div-container{
+  max-width: 310px;
+} */
+.contact-button{
+  text-align: center;
+  color: black;
+  background-color: #f1f1f1;
+  border:none;
+  width:100%;
+  padding:10px;
+  font-size: 16px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.contact-button:hover{
+   background-color: #ccc;
+}
+.about-grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  padding:0px 16px; 
+}
+
+ 
